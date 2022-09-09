@@ -77,7 +77,7 @@ if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls -hl --group-directories-first --color=auto'
     alias doom='crispy-doom'
-    alias mocp='mocp -T transparent'
+    alias mocp='mocp -m -T transparent'
     alias view='viewnior'
     alias web='firefox-esr'
     #alias dir='dir --color=auto'
